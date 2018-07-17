@@ -22,7 +22,6 @@
 
   .col-1-of-3 {
     width: calc((100% - 2 * #{$gutter-horizontal}) / 3);
-    background-color: orangered;
     float: left;
   }
   // &:not(:last-child) {
@@ -33,7 +32,7 @@
     width: calc(
       2 * ((100% - 2 * #{$gutter-horizontal}) / 3) + #{$gutter-horizontal}
     );
-    background-color: orangered;
+
     float: left;
   }
 
